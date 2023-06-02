@@ -1,11 +1,11 @@
-pipeline {
+ pipeline {
     agent any
     
     stages {
         stage('Checkout') {
             steps {
                 // Checkout code from version control
-                git 'https://github.com/anildevops7702/jenkins.git'
+                git 'https://github.com/vijay2666/jenkins.git'
             }
         }
         
